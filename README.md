@@ -28,3 +28,11 @@ Language: Python (popular, great support for APIs and data manipulation). <br>
 Framework for REST API: FastAPI (modern, fast, with support for asynchronous operations).  <br>
 Database: PostgreSQL (robust, widely used in enterprise applications). <br>
 ORM (Object-Relational Mapping): SQLAlchemy (facilitates database operations). <br>
+
+# Local Tests
+Run the Application: uvicorn app.main:app --reload <br>
+http://localhost:8000/docs
+
+# Deploy
+Heroku Postgresql
+https://desafio1.herokuapp.com/docs <br>
