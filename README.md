@@ -16,9 +16,15 @@ Clarifications
 # Section 2: SQL
 You need to explore the data that was inserted in the previous section. The stakeholders ask
 for some specific metrics they need. You should create an end-point for each requirement.
-Requirements
+Requirements  <br>
 ● Number of employees hired for each job and department in 2021 divided by quarter. The
-table must be ordered alphabetically by department and job.
+table must be ordered alphabetically by department and job. <br>
 ● List of ids, name and number of employees hired of each department that hired more
 employees than the mean of employees hired in 2021 for all the departments, ordered
-by the number of employees hired (descending).
+by the number of employees hired (descending). <br>
+
+# Technology choice:
+Language: Python (popular, great support for APIs and data manipulation). <br>
+Framework for REST API: FastAPI (modern, fast, with support for asynchronous operations).  <br>
+Database: PostgreSQL (robust, widely used in enterprise applications). <br>
+ORM (Object-Relational Mapping): SQLAlchemy (facilitates database operations). <br>
